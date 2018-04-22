@@ -46,7 +46,7 @@ typy specjalne - undefined / null
 */
 
 var niezdefiniowanaZmienna;
-var nullowaZmienna;
+var nullowaZmienna = null;
 
 console.log(niezdefiniowanaZmienna);
 console.log(nullowaZmienna);
