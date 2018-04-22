@@ -43,7 +43,7 @@ console.log(jsonOsoby);
 
 var osoby = jsonOsoby.osoby;
 
-osoby.forEach(function(osoba, index){
+osoby.forEach( function(osoba, index){
     console.log("Osoba: " + osoba.imie);
     
     var zainteresowania = osoba.zainteresowania;
