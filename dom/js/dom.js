@@ -1,0 +1,13 @@
+'use strict';
+var elementFirst = document.getElementById( "parFirst" );
+console.log(elementFirst);
+var elementsTable = document.getElementsByClassName( "superlink" );
+console.log(elementsTable);
+var allA = document.getElementsByTagName( "a" );
+console.log(allA);
+var secondLink = document.querySelector( "#parSecond" );
+console.log(secondLink);
+var firstLink = document.getElementsByClassName ( ".superlink");
+console.log(firstLink);
+var allLink = document.querySelectorAll( ".superlink" );
+console.log(allLink);
